@@ -1,11 +1,11 @@
 Package: MSLSMediaBiasR
 Type: Package
-Title: What the Package Does in One 'Title Case' Line
+Title: A Bayesian Dynamic Markov Switching Latent Space Model for Media Bias and Polarization
 Version: 1.0
 Date: 2023-05-20
 Author: BayesianEcon
 Maintainer: BayesianEcon <A.User@whereever.net>
-Description: One paragraph description of what the package does as one or more full sentences.
+Description: The following package contains the MCMC algorithm used in the paper "Media Bias and Polarization through the Lens of a Markov Switching Latent Space Network Model".
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.10), RcppArmadillo, RcppDist
 LinkingTo: Rcpp, RcppArmadillo, RcppDist
