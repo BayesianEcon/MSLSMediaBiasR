@@ -5,6 +5,11 @@
 
 -------------------------------------------------------------------------------------------------------------------------------
 
+The following package contains the MCMC function used in the paper 
+"Media Bias and Polarization through the Lens of a Markov Switching Latent Space Network Model".
+The MCMC function runs a Metropolis-withing-Gibbs Algorithm to draw the Markov Chains 
+of the parameters of a Markov Switching Latent Space Network Model.
+
 INPUT
 
 The MCMC function expects the use of the columns of 3 data frames as main input: "EL_x", "EL_princ", "DBplane".
@@ -163,4 +168,4 @@ The main output is a list object called "result" containing the following elemen
 - result[[7]] the matrix HETA containing the likelihood in state a, in state b and given the current x_it
 - result[[8]] the matrix Sigma_z_ite containing the iteration draws for the variances of the latent states 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
