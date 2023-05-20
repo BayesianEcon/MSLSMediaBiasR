@@ -1,19 +1,9 @@
 ```text
-
-
 -------------------------------------------------------------------------------------------------------------------------------
 
         %%%%%%%%%%%%%%  R Package MSLSMediaBiasR   %%%%%%%%%%%%%%
 
 -------------------------------------------------------------------------------------------------------------------------------
-
-The C++ script necessary for running the Bayesian MS-LS model is reported here below along
-with a brief description of the main function and its signature.C++ is integrated into R via Rcpp.
-
-* JASA_MS_LS_FE.cpp
-The script contains the MCMC function to estimate the Bayesian MS-LS network model for a dynamic network.
-The dynamic network is expected to have N nodes for each time t=1,...,Time and count weighted edges.
-
 
 INPUT
 
