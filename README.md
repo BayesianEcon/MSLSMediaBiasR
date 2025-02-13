@@ -10,6 +10,11 @@ The following package contains the MCMC function used in the paper
 The MCMC function runs a Metropolis-withing-Gibbs Algorithm to draw the Markov Chains 
 of the parameters of a Markov Switching Latent Space Network Model.
 
+To install the package in R:
+
+library(devtools)
+install_github("BayesianEcon/MSLSMediaBiasR")
+
 INPUT
 
 The MCMC function expects the use of the columns of 3 data frames as main input: "EL_x", "EL_princ", "DBplane".
